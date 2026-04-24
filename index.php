@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistemon</title>
+    <title>Sistemon V3 - SAST Target</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-    <h1>Bienvenido al Sistemón</h1>
-    <br>
-    <img src="./imagen.png" alt="Logo del Sistemón" width="500" style="border-radius: 10px;">
-    <br>
-    <h2>Scrum Team</h2>
-    <ul>
-        <li><a href="./adrian.docx">Descargar CV de Adrián Hernández</a></li>
-        <li><a href="./josue.docx">Descargar CV de Josué Moreno</a></li>
-        <li><a href="./aldo.docx">Descargar CV de Aldo Pérez</a></li>
-        <li><a href="./diego.docx">Descargar CV de Diego Rodríguez</a></li>
-    </ul>
+    <div class="container">
+        <h1>Sistemon V3: Gestión Escolar Completa</h1>
+        <div style="display: flex; gap: 10px;">
+            <button onclick="location.href='alumnos.php'">Módulo Alumnos (Josué)</button>
+            <button onclick="location.href='materias.php'">Módulo Materias (Aldo)</button>
+            <button onclick="location.href='calificaciones.php'">Módulo Notas (Diego)</button>
+        </div>
+    </div>
 </body>
-
 </html>
